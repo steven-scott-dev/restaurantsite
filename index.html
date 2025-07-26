@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Table - Modern Dining Experience</title>
+    <meta name="description" content="Urban Table is a modern restaurant offering a curated menu of fresh, seasonal dishes in a stylish setting. Reserve your table today!">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Urban Table</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
+                <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero" style="background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1500&q=80');">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-text fade-in">
+                <h1>Welcome to <span class="highlight">Urban Table</span></h1>
+                <p>Modern dining, fresh flavors, unforgettable experiences.</p>
+                <div class="hero-buttons">
+                    <a href="#menu" class="btn btn-primary">View Menu</a>
+                    <a href="#contact" class="btn btn-secondary">Reserve a Table</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>About Urban Table</h2>
+                <div class="section-divider"></div>
+                <p>Where culinary creativity meets a welcoming atmosphere.</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text fade-in">
+                    <h3>Our Story</h3>
+                    <p>Urban Table was founded with a passion for fresh, seasonal ingredients and a love for bringing people together. Our chefs craft each dish with care, blending global inspiration with local produce.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-leaf"></i>
+                            <div>
+                                <h4>Fresh Ingredients</h4>
+                                <p>We source the best local produce for every dish.</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-utensils"></i>
+                            <div>
+                                <h4>Creative Menu</h4>
+                                <p>Our menu changes seasonally to keep things exciting.</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-wine-glass-alt"></i>
+                            <div>
+                                <h4>Curated Drinks</h4>
+                                <p>Enjoy a selection of wines, cocktails, and craft beers.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image fade-in">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80" alt="Restaurant interior" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="services">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Our Menu</h2>
+                <div class="section-divider"></div>
+                <p>Explore our chef’s favorites and seasonal specials.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card fade-in">
+                    <div class="service-icon"><i class="fas fa-bread-slice"></i></div>
+                    <h3>Artisan Sourdough</h3>
+                    <p>Freshly baked sourdough served with whipped butter and sea salt.</p>
+                    <div class="service-price">$6</div>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon"><i class="fas fa-seedling"></i></div>
+                    <h3>Seasonal Salad</h3>
+                    <p>Mixed greens, heirloom tomatoes, radish, and house vinaigrette.</p>
+                    <div class="service-price">$12</div>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon"><i class="fas fa-drumstick-bite"></i></div>
+                    <h3>Grilled Chicken Bowl</h3>
+                    <p>Herb-marinated chicken, quinoa, roasted veggies, lemon yogurt.</p>
+                    <div class="service-price">$16</div>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon"><i class="fas fa-fish"></i></div>
+                    <h3>Pan-Seared Salmon</h3>
+                    <p>Wild-caught salmon, asparagus, citrus beurre blanc.</p>
+                    <div class="service-price">$22</div>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon"><i class="fas fa-ice-cream"></i></div>
+                    <h3>Housemade Gelato</h3>
+                    <p>Rotating flavors, made fresh daily.</p>
+                    <div class="service-price">$7</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Gallery</h2>
+                <div class="section-divider"></div>
+                <p>A taste of our food and atmosphere.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item fade-in">
+                    <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80" alt="Dining room" loading="lazy">
+                    <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=800&q=80" alt="Plated dish" loading="lazy">
+                    <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=800&q=80" alt="Chef at work" loading="lazy">
+                    <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=800&q=80" alt="Cocktail" loading="lazy">
+                    <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="location">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Visit Us</h2>
+                <div class="section-divider"></div>
+                <p>Located in the heart of downtown.</p>
+            </div>
+            <div class="location-content">
+                <div class="location-info fade-in">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 Main Street, Cityville</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>(555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Hours</h4>
+                            <p>Mon–Sun: 11am – 10pm</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="location-map fade-in">
+                    <iframe 
+                        src="https://www.google.com/maps?q=123+Main+Street,+Cityville&output=embed"
+                        width="100%" 
+                        height="300" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Contact Us</h2>
+                <div class="section-divider"></div>
+                <p>Reserve your table or ask us anything!</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-form fade-in">
+                    <form action="#" method="POST" id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+                            <select id="service" name="service" required>
+                                <option value="">Select a Menu Item</option>
+                                <option value="Artisan Sourdough">Artisan Sourdough - $6</option>
+                                <option value="Seasonal Salad">Seasonal Salad - $12</option>
+                                <option value="Grilled Chicken Bowl">Grilled Chicken Bowl - $16</option>
+                                <option value="Pan-Seared Salmon">Pan-Seared Salmon - $22</option>
+                                <option value="Housemade Gelato">Housemade Gelato - $7</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Reservation details or questions" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info fade-in">
+                    <h3>Get in Touch</h3>
+                    <p>We’re here to help with reservations, private events, and more.</p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Call Us</h4>
+                                <p>(555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email Us</h4>
+                                <p>info@urbantable.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Visit Us</h4>
+                                <p>123 Main Street, Cityville</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Urban Table</h3>
+                    <p>Modern dining, fresh flavors, unforgettable experiences.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Menu</h4>
+                    <ul>
+                        <li>Artisan Sourdough</li>
+                        <li>Seasonal Salad</li>
+                        <li>Grilled Chicken Bowl</li>
+                        <li>Pan-Seared Salmon</li>
+                        <li>Housemade Gelato</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Main Street, Cityville</p>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@urbantable.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Urban Table. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
